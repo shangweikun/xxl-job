@@ -138,6 +138,12 @@ public class XxlJobTrigger {
         triggerParam.setBroadcastIndex(index);
         triggerParam.setBroadcastTotal(total);
 
+        // 2.5、init global share info
+        // init share info 
+
+        // insert into database
+        // id is jobLogId 
+
         // 3、init address
         String address = null;
         ReturnT<String> routeAddressResult = null;
